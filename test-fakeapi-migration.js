@@ -1,4 +1,4 @@
-const { fakeapisetupmigration } = require("./utils/general/fakeapisetupmigration");
+const { fakeapisetupmigration } = require("fakeapisetupmigration");
 
 exports.handler = async (event) => {
   try {
@@ -21,3 +21,4 @@ exports.handler = async (event) => {
     };
   }
 };
+
